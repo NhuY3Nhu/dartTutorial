@@ -1,0 +1,11 @@
+1. Nhập một giá trị từ bàn phím:
+	int? number = int.tryParse(stdin.readLineSync()!);
+2. Nhập một mảng từ bàn phím:
+	List listb = []; // Mảng rỗng
+   	print('Nhập n: ');
+   	int n = int.parse(stdin.readLineSync()!);
+   	for (int i = 0; i < n; i++) {
+     		listb.add(int.tryParse(stdin.readLineSync()!));
+   	}
+   	print(listb);
+3. 
